@@ -14,7 +14,6 @@ def main():
     kouka_img_3_1 = pg.transform.rotozoom(kouka_img_3,10,1.0)
 
     tmr = 0
-    koukaton_tmr = 0
     koukaton = [kouka_img_3,kouka_img_3_1]
     while True:
         for event in pg.event.get():
