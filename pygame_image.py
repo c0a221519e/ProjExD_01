@@ -22,12 +22,6 @@ def main():
             if event.type == pg.QUIT: return
         clock.tick()
 
-        if x == 1599:
-            x = 0
-
-        screen.blit(bg_img, [-x, 0])
-        screen.blit(bg_img_reverse, [1600-x, 0])
-        
 
 
         if koukaton_tmr <= 50:
